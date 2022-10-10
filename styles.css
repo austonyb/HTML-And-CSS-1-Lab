@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+* {
+    background-color: bisque;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+p {
+    font-family: 'Lora', serif;
+}
+.janalie {
+    width: 200px;
+    height: 200 px;
+    border-radius: 25px;
+
+
+}
+
+.section1 {
+    column-count: 2;
+    margin: auto;
+    width: fit-content;
+}
+
+.bioSubsection {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.section2 {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 1px solid rgb(0, 0, 0);
+    margin: 40px;
+}
+
+button {
+    font-family: 'Bebas Neue', cursive;
+}
